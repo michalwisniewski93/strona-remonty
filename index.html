@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remonty Bydgoszcz Krzysztof Wiśniewski</title>
+
+    <script src="https://kit.fontawesome.com/9c479075b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="up"><a href="#home" alt="Idź do góry strony"><i class="fa-solid fa-up-long"
+                alt="Idź do góry strony"></i></a></div>
+    <section class="home" id="home">
+        <h1>Remonty Bydgoszcz</h1>
+        <h2>Krzysztof Wiśniewski</h2>
+    </section>
+    <section class="burgerIcon">
+        <i class="fa-solid fa-bars menuIco"></i>
+    </section>
+    <section class="menu">
+        <ul>
+            <li><a href="#home">Strona główna</a></li>
+            <li><a href="#onas">O nas</a></li>
+            <li><a href="#realizacje">Realizacje</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </section>
+    <section class="projects" id="realizacje">
+        <h1>Galeria zdjęć naszych realizacji</h1>
+        <div class="arrows">
+            <i class="fa-solid fa-arrow-left leftIconGallery"></i>
+            <i class="fa-solid fa-arrow-right rightIconGallery"></i>
+        </div>
+        <div class="galleryPhoto">
+            <img src="" alt="">
+        </div>
+    </section>
+    <section class="aboutUs" id="onas">
+        <h1>O nas</h1>
+        <p class="description">
+            Firma remontowa Krzysztof Wiśniewski to dwuosobowa ekipa remontowa. Posiadamy wieloletnie doświadczenie.
+            <br /><br />Jesteśmy firmą rodzinną, zgranym, doświadczonym i kompetentnym zespołem.
+            <br />
+            Zajmujemy się kompleksowo remontami i wykończeniami wnętrz.
+            <br />
+            Działamy na terenie Bydgoszczy i okolic.
+            <br /><br />
+            W ciągu dziesięciu lat wykonaliśmy remonty kilkudziesięciu mieszkań a także firm np. przychodnia lekarska,
+            biurowiec.
+            Naszym klientem jest przede wszystkim klient indywidualny chcący odmienić swoje mieszkanie. Jesteśmy równie
+            dobrze otwarci
+            na współpracę z firmami.
+            <br /><br />
+            Nasze efekty prac mogą Państwo obejrzeć w galerii zdjęć umiejscowionej na niniejszej stronie internetowej.
+            <br /><br />
+            Remonty wykonujemy w przystępnych cenach. Proponujemy wykonanie wyceny na spotkaniu z klientem i uzgodnienie
+            szczegółów remontu.<br /><br />
+            Służymy pomocą i doradztwem w zakresie wyboru materiałów budowlano-wykończeniowych.
+            <br /><br />
+            Po wykonaniu prac mieszkanie czy lokal zostaje posprzątany.
+
+        </p>
+        <div class="photo">
+            <img src="images/remontybydgoszcz.png" alt="">
+        </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+        <h1>Kontakt</h1>
+        <div class="contactForm">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="b8462948-4c61-47fa-8d09-3924b1dc8eb3">
+                <label>Imię i nazwisko (pole wymagane) :
+                    <input class="nameAndSurnameField" name="nameAndSurname" type="text" placeholder="Imię i nazwisko"
+                        required>
+                </label>
+                <label>Numer telefonu (pole wymagane) :
+                    <input class="phoneField" name="phoneNumber" type="text" placeholder="Numer telefonu" required>
+                </label>
+                <label>Adres e-mail (pole wymagane) :
+                    <input class="emailField" name="emailAddress" type="email" placeholder="Adres e-mail" required>
+                </label>
+                <label>Nazwa firmy (pole opcjonalne) :
+                    <input class="companyNameField" name="companyName" type="text" placeholder="Nazwa firmy">
+                </label>
+                <label>
+                    Treść wiadomości (pole wymagane) :
+                    <textarea class="messageContentField" name="content" placeholder="Treść wiadomości"
+                        required></textarea>
+                </label>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <button class="sendMail" type="submit">Wyślij wiadomość</button>
+            </form>
+
+        </div>
+        <div class="contactData">
+            <p class="city">Kontakt z naszą firmą:</p>
+            <p class="city"><i class="fa-solid fa-location-dot"></i> Derdowskiego 9/17 85-795 Bydgoszcz</p>
+            <p class="phone"><i class="fa-solid fa-phone"></i> +48 609 568 478</p>
+            <p class="mail"><i class="fa-regular fa-envelope"></i> k.wisniewski@wita.com.pl</p>
+        </div>
+    </section>
+    <section class="home">
+        <h1>Remonty Bydgoszcz</h1>
+        <h2>Krzysztof Wiśniewski</h2>
+    </section>
+
+    <script src="menu.js"></script>
+    <script src="gallery.js"></script>
+</body>
+
+</html>
