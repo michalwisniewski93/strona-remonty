@@ -47,11 +47,11 @@ leftIconGallery.addEventListener('click', () => {
 rightIconGallery.addEventListener('click', () => {
     index++
     console.log(index);
-    if(index <= 23){
+    if(index <= photos.length-1){
         galleryPhoto.src = photos[index].link
     }
-    if(index >= 23){
-        index = 23
+    if(index >= photos.length-1){
+        index = photos.length-1
     }
    
 })
