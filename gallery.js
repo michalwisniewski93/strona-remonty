@@ -21,8 +21,7 @@ const photos = [
     {id: 19, link: './images/gallery/20.jpeg'},
     {id: 20, link: './images/gallery/21.jpeg'},
     {id: 21, link: './images/gallery/22.jpg'},
-    {id: 22, link: './images/gallery/23.webp'},
-    {id: 23, link: './images/gallery/24.png'}
+    {id: 22, link: './images/gallery/23.webp'}
 ]
 
 const galleryPhoto = document.querySelector('.galleryPhoto img')
