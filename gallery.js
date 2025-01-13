@@ -34,7 +34,7 @@ const rightIconGallery = document.querySelector('.rightIconGallery')
 
 leftIconGallery.addEventListener('click', () => {
     index--
-    console.log(index);
+    
     if(index >= 0){
         galleryPhoto.src = photos[index].link
     }
@@ -45,7 +45,7 @@ leftIconGallery.addEventListener('click', () => {
 })
 rightIconGallery.addEventListener('click', () => {
     index++
-    console.log(index);
+    
     if(index <= photos.length-1){
         galleryPhoto.src = photos[index].link
     }
